@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: #f8f9fa;
+    color: #343a40;
+    font-family: "poppins", sans-serif;
+}
+
+.todo-container {
+    max-width: 600px;
+    margin: 80px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+
+}
+
+.form-control,
+.btn {
+    border-radius: 30px;
+}
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e9ecef;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-size: large;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+}
+
+.todo-item:last-child {
+    border-bottom: none;
+}
+
+.todo-actions button {
+    margin-left: 5px;
+}
+
+.todo-actions i {
+    font-size: 1.2rem;
+}
+
+#modal {
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#modal input {
+    border: 2px solid black;
+    margin-top: 50px;
+    width: 70%;
+}
+
+#modal input::placeholder {
+    text-align: center;
+}
+
+#modal input:focus{
+    box-shadow:none ;
+}
+#modal h1 {
+    margin-top: 30px;
+}
+
+#buttons {
+    position: relative;
+    top: 18%;
+    left: 15%;
+}
+
+#buttons button {
+    width: 150px;
+    border-radius: 10px;
+}
+
+#main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #e9ecef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#userdisplay {
+    position: absolute;
+    top: 0;
+    left: 8px;
+}
+
+@media (max-width: 600px) {
+    .todo-actions button {
+        margin: 5px 0;
+    }
+
+    #modal {
+        width: 350px;
+        height: 250px;
+
+    }
+
+    #modal input {
+        border: 2px solid black;
+        margin-top: 50px;
+        width: 90%;
+    }
+
+    #buttons {
+        position: relative;
+        top: 11%;
+        left: 30%;
+    }
+
+    #buttons button {
+        width: 100px;
+        border-radius: 10px;
+    }
+
+    #userdisplay {
+        left: 90px;
+    }
+    #modal input{
+        margin-top: 30px;
+    }
+
+}
