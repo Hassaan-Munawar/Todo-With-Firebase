@@ -18,8 +18,6 @@ Why Use My Todo App?
 
  This app is designed to help you stay organized and increase productivity. Whether you're planning your day or managing long-term projects, my app ensures that everything is in one place and easily accessible.
 
-Check out the demo video below to see it in action! 👇
-
 Connect with me for more exciting projects or to discuss potential collaborations. Let’s keep innovating together! 🚀
 
 Hosted Link : https://lnkd.in/dRPctwpX
