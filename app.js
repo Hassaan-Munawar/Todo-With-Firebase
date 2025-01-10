@@ -10,13 +10,13 @@ import {
 } from "https://www.gstatic.com/firebasejs/10.12.3/firebase-firestore.js";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyD14_bmRueOYU02l7Ib58oTy1ywHd3LHuY",
-    authDomain: "todo-e0a93.firebaseapp.com",
-    projectId: "todo-e0a93",
-    storageBucket: "todo-e0a93.appspot.com",
-    messagingSenderId: "299842059858",
-    appId: "1:299842059858:web:9107fe2988a184b834e98b",
-    measurementId: "G-YZ8C17DK7N"
+    apiKey: "",
+    authDomain: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: "",
+    measurementId: ""
 };
 
 const app = initializeApp(firebaseConfig);
